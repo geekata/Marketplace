@@ -1,0 +1,9 @@
+com\marketplace\serviceproducts\ServiceProductsApplication.class
+com\marketplace\serviceproducts\repo\ProductRepo.class
+com\marketplace\serviceproducts\service\ProductService$1.class
+com\marketplace\serviceproducts\api\dto\ProductDTO.class
+com\marketplace\serviceproducts\api\ProductController.class
+com\marketplace\serviceproducts\repo\model\Product.class
+com\marketplace\serviceproducts\api\dto\FeedbackDTO.class
+com\marketplace\serviceproducts\service\ProductService$2.class
+com\marketplace\serviceproducts\service\ProductService.class

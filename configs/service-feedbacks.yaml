@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-feedbacks
+spec:
+  selector:
+    app: service-feedbacks
+  type: NodePort
+  ports:
+    - name: http
+      port: 8083
+      nodePort: 30003
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-feedbacks
+spec:
+  selector:
+    matchLabels:
+      app: service-feedbacks
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: service-feedbacks
+    spec:
+      containers:
+        - name: server
+          image: razumovska/service-feedbacks:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8083
+
+---

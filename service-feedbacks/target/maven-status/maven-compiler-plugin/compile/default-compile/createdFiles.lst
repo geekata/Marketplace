@@ -1,0 +1,6 @@
+com\marketplace\servicefeedbacks\api\dto\FeedbackDTO.class
+com\marketplace\servicefeedbacks\api\FeedbackController.class
+com\marketplace\servicefeedbacks\repo\model\Feedback.class
+com\marketplace\servicefeedbacks\service\FeedbackService.class
+com\marketplace\servicefeedbacks\repo\FeedbackRepo.class
+com\marketplace\servicefeedbacks\ServiceFeedbacksApplication.class

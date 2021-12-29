@@ -1,0 +1,8 @@
+com\marketplace\servicestores\api\dto\ProductDTO.class
+com\marketplace\servicestores\service\StoreService$1.class
+com\marketplace\servicestores\ServiceStoresApplication.class
+com\marketplace\servicestores\service\StoreService.class
+com\marketplace\servicestores\api\StoreController.class
+com\marketplace\servicestores\repo\model\Store.class
+com\marketplace\servicestores\api\dto\StoreDTO.class
+com\marketplace\servicestores\repo\StoreRepo.class

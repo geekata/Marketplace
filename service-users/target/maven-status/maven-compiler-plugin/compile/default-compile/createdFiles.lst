@@ -1,0 +1,8 @@
+com\marketplace\serviceusers\service\UserService.class
+com\marketplace\serviceusers\repo\model\User.class
+com\marketplace\serviceusers\api\dto\FeedbackDTO.class
+com\marketplace\serviceusers\service\UserService$1.class
+com\marketplace\serviceusers\api\dto\UserDTO.class
+com\marketplace\serviceusers\ServiceUsersApplication.class
+com\marketplace\serviceusers\api\UserController.class
+com\marketplace\serviceusers\repo\UserRepo.class
